@@ -11,7 +11,7 @@ def countdown(t):
 		Rtimer = '{:02d}:{:02d}'.format(Rmins, Rsecs)
 		Gmins, Gsecs = divmod(t//dilation, 60)
 		Gtimer = '{:02d}:{:02d}'.format(Gmins, Gsecs)
-		print("Real Time:", Rtimer, "     ", "Game Time:", Gtimer, end="\r")
+		print("Game Time:", Gtimer, "     ", "Real Time:", Rtimer, end="\r")
 		time.sleep(1)
 		t -= 1
 	
