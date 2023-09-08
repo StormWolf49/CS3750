@@ -1,6 +1,6 @@
  # import the time module
 import time
-dilation = 2
+dilation = 3
 
 # define the countdown func.
 def countdown(t):
